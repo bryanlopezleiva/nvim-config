@@ -1,0 +1,25 @@
+
+# Ignore swap, backup, and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore compiled Lua files
+*.luac
+
+# Ignore session files
+session.vim
+
+# Ignore plugin data
+lazy-lock.json
+node_modules/
+
+# Ignore local build files for markdown-preview
+app/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore other personal or unnecessary files (optional)
+logs/
